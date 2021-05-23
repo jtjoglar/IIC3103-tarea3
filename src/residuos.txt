@@ -1,0 +1,9 @@
+{posactual.map(actual => {
+            if (posactual.length > 0){
+                return (
+                    <CircleMarker key={actual.code} center={actual.position} radius={3} color='red'></CircleMarker>
+                )
+            }
+          })}
+
+

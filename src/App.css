@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.chat {
+  width: 25%;
+  min-height: 50vh;
+  max-height: 70vh;
+  overflow: scroll;
+  border: 3px solid rgb(134, 182, 189);
+  text-align: left;
+  float:inline-start;  
+}
+
+.form {
+  float: left;
+}
+
+.leaflet-container {
+  width: 70%;
+  height: 65vh;
+  border: 3px solid rgb(134, 182, 189);
+}
+
+.leaflet-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.flights {
+  border: 3px solid rgb(79, 151, 85);
+  width: 29%;
+  min-height: 50vh;
+  max-height: 70vh;
+  overflow: scroll;
+  text-align: left;
+  float: right;
+}
